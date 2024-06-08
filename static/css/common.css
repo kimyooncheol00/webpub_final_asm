@@ -1,0 +1,67 @@
+img {
+    overflow: hidden;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+p {
+    margin: 0%;
+}
+
+j-header {
+    position: absolute;
+    top: 10vh;
+    width: 100vw;
+}
+
+j-footer {
+    position: absolute;
+    top: 360%;
+    left: 0vw;
+    width: 100vw;
+    height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body {
+    margin: 0%;
+}
+#footer_div {
+    position: absolute;
+    top: 25vh;
+    left: 15vw;
+}
+
+
+
+
+
+
+
+
+div {
+    width: auto;
+	height: auto;
+}
+
+
+#header_menu_line {
+    position: relative;
+    top: 10vh;
+}
+
+#header_menu {
+    position: absolute;
+    left: 50vw;
+}
+
+
+.header_text {
+    position: absolute;
+    left: 6vw;
+}
+.header_text_s {
+    margin-left: 10vw;
+}
+

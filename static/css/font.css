@@ -1,0 +1,38 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.white {
+    color: white;
+}
+.gray {
+    color: gray;
+}
+.pink {
+    color: #F27F7F;
+}
+.black {
+    color: black;
+}
+
+.font_size_15pt {
+    font-size: 1vw;
+}
+.font_size_20pt {
+    font-size: 1.25vw;
+}
+.font_size_30pt {
+    font-size: 1.5vw;
+}
+.font_size_40pt {
+    font-size: 2vw;
+}
+.font_size_50pt {
+    font-size: 2.5vw;
+}
+.font_size_70pt {
+    font-size: 3.5vw;
+}
+.font_size_80pt {
+    font-size: 4vw;
+}

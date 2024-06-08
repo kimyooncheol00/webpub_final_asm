@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="./static/js/components.js" type="text/javascript"></script>
+    <script src="./static/js/index.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="./static/css/font.css">
+    <link rel="stylesheet" href="./static/css/common.css">
+    <link rel="stylesheet" href="./static/css/index.css">
+</head>
+<body>
+    <div id="header" style="background-image: url(./static/images/index_background.png)">
+        <j-header id="index"></j-header>
+        <div id="header_inf" class="font_size_40pt white">
+            <p class="header_inf_text">충청북도 제천시<br>바쁜 일상에서 벗어나 휴식과 여유를<br>찾고자 하는 이들에게 추천합니다</p>
+        </div>
+    </div>
+    <div id="food_section">
+        <p class="food_text font_size_70pt pink">제천 맛집</p>
+        <div id="food_main">
+            <img id="food_main_img" src="./static/images/burger.png">
+            <div id="food_main_text">
+                <p class="font_size_70pt pink" style="margin-top: 8vh;">McDonald's</p>
+                <p class="font_size_40pt" style="margin-top: 2vh;">맥도날드는 맛있는 음식과 편안한 분위기를
+                    <br>제공하여 많은 사람들에게 즐거움과 만족을
+                    <br>선사합니다.</p>
+                <p class="font_size_30pt" style="margin-top: 1.5vh;">충청북도 제천시 청전동 165-5<a id="btn_link" href="/food.html"><span class="font_size_30pt white">알아보기</span></a></span>
+            </div>
+        </div>
+        <div id="food_list">
+            <j-food-member id="강박사냉면숯불갈비" src="./static/images/kangbaksa.png" food_type="함흥냉면"></j-food-member>
+            <j-food-member id="고원갈비" src="./static/images/gowan.png" food_type="돼지갈비" ></j-food-member>
+            <j-food-member id="고태봉갈비탕" src="./static/images/gotebong.png" food_type="갈비탕" ></j-food-member>
+            <j-food-member id="고향맛집" src="./static/images/gohyang.png" food_type="순두부" ></j-food-member>
+        </div>    
+    </div>
+    <hr class="food_endline">
+    <div id="place_section">
+        <div id="place_menu">
+            <p class="font_size_80pt pink">제천 명소</p>
+            <p class="font_size_40pt pink" style="margin-top: 2vh;">충청북도 제천시</p>
+            <div id="place_list">
+                <j-place-member id="의림지" selected="selected" src="./static/images/eurim.jpeg"></j-place-member>
+                <j-place-member id="청풍호반 케이블카 물태리역" src="./static/images/cablecar.jpeg"></j-place-member>
+                <j-place-member id="청풍문화제단지" src="./static/images/chungpung.jpeg""></j-place-member>
+                <j-place-member id="천주교 배론성지" src="./static/images/beron.jpeg""></j-place-member>
+            </div>
+        </div>
+        <a href="./place.html">
+        <div id="place_inf">
+            <p id="place_inf_sp"class="font_size_20pt pink">자세히 보기</p> 
+            <img id="place_inf_img" src="./static/images/eurim.jpeg">
+            <p id="place_inf_jch"class="font_size_70pt pink">충청북도 제천시 의림지</p>
+            <span id="place_inf_span">
+                <p class="font_size_40pt" style="color: #504B4B;">충청북도 제천시 모산동 241</p>
+                <br>    
+                <p class="font_size_30pt" style="color: #504B4B;">제천 의림지는 숲속에 자리한 사당과 함께<br>
+                    아름다운 자연 풍경으로 유명합니다.<br>
+                    신비로운 분위기 속에서 역사적으로<br>
+                    중요한 선조들을 기리는 의림당과 함께<br>
+                    녹음산의 푸르른 나무들이 만나<br>
+                    이곳을 찾는 이들에게 안락한<br>
+                    휴식의 공간을 제공합니다.</p>
+            </span>
+            <div id="place_inf_other">
+                <p id="place_inf_other_text" class="font_size_40pt pink">다른 명소</p>
+                <img class="place_inf_other_img" src="./static/images/eurim.jpeg">
+                <img class="place_inf_other_img" src="./static/images/cablecar.jpeg">
+                <img class="place_inf_other_img" src="./static/images/chungpung.jpeg">
+                <img class="place_inf_other_img" src="./static/images/beron.jpeg">
+            </div>
+        </div>
+        </a>
+    </div>
+    <hr class="place_endline">
+    <j-footer></j-footer> 
+</body>
+</html>

@@ -1,0 +1,82 @@
+#place_members {
+    position: relative;
+    top: 35vh;
+    left: 0vw;
+}
+.place_member {
+    position: relative;
+    width: 100vw;
+    height: 60vh;
+}
+.place_member:nth-child(odd) {
+    background-color: #272727;
+    color: white;
+}
+.place_member:nth-child(even) {
+    color: black;
+}
+.place_member_img {
+    width: 30vw;
+    height: 50vh;
+    border-radius: 1vw;
+}
+.place_member_subname {
+    position: absolute;
+    top: 18vh;
+    left: 9vw;
+    color: #C89A00;
+}
+.place_member_box {
+    width: 45vw;
+    height: 24vw;
+}
+
+.place_member_box {
+    position: absolute;
+    top: 6vh;
+}
+.place_member_name {
+    position: absolute;
+    top: 9vh;
+}
+.place_member_text {
+    position: absolute;
+    top: 23vh;
+}
+.place_member_img {
+    position: absolute;
+    top: 5vh;
+}
+
+.place_member_box.even {
+    left: 5vw;
+}
+.place_member_name.even {
+    left: 9vw;
+}
+.place_member_text.even {
+    left: 9vw;
+}
+.place_member_img.even {
+    left: 60vw;
+}
+
+
+.place_member_box.odd {
+    left: 45vw;
+}
+.place_member_name.odd {
+    left: 50vw;
+}
+.place_member_text.odd {
+    left: 50vw;
+}
+.place_member_img.odd {
+    left: 7vw;
+}
+
+.endline {
+    position: relative;
+    top: 55vh;
+    z-index: 1;
+}
